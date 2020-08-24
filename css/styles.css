@@ -1,0 +1,95 @@
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  padding-bottom: 8%;
+}
+h1{
+
+  text-align: center;
+  font-family: sans-serif;
+  font-weight:bolder;
+  color: #fff;
+}
+h3{
+  font-family: fantasy;
+}
+
+p{
+  color: #8f8f8f;
+}
+.row{
+  text-align: center;
+}
+body{
+  font-family: Montserrat;
+}
+.narbar{
+  padding-bottom: 5.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.iphone{
+  margin-right: 2%;
+  margin-top: 10%;
+  width:40%;
+  transform: rotate(40deg);
+  position: absolute;
+  left: 40%;
+}
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.feature-box{
+  text-align: center;
+  padding: 7%;
+}
+.icon{
+  color: #ef8172;
+  padding-bottom: 2px;
+}
+.icon:hover{
+  color: #206a5d;
+}
+#testimonials{
+
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+.carousel-item{
+  padding:7% 15%;
+}
+.tsimg{
+  width: 15%;
+  border-radius: 100%;
+  padding-bottom: 2px;
+  margin: 20px;
+}
+#press{
+  background-color:#ff4c68;
+  text-align: center;
+  padding: 3%;
+}
+.press-logo{
+  margin: 20px 20px 50px;
+  width: 20%;
+}
+#pricing{
+  padding: 20px;
+  background-color: #1a1a2e;
+}
+@media (max-width:1000px){
+  #title{
+    text-align: center;
+
+    }
+    .iphone{
+      position: static;
+      transform: rotate(0deg);
+    }
+  }
+}
